@@ -1,12 +1,12 @@
 {
-    "name": "chuckbe/chuckcms-template-nairobi",
-    "description": "A ChuckCMS template named 'Nairobi' - lightweight and responsive.",
+    "name": "chuckbe/chuckcms-template-singapore",
+    "description": "A ChuckCMS template named 'Singapore' - lightweight and responsive.",
     "keywords": ["chuckbe", "chuckcms", "cms", "laravel", "php"],
-    "homepage": "https://github.com/chuckbe/chuckcms-template-nairobi",
+    "homepage": "https://github.com/chuckbe/chuckcms-template-singapore",
     "require": {
         "php": ">=7.0.0",
         "laravel/framework": "~5.5||~5.6",
-        "chuckbe/chuckcms": "~0.1.0@beta"
+        "chuckbe/chuckcms": "^0.1"
     },
     "authors": [
         {
@@ -16,13 +16,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "Chuckbe\\ChuckcmsTemplateNairobi\\": "src"
+            "Chuckbe\\ChuckcmsTemplateSingapore\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Chuckbe\\ChuckcmsTemplateNairobi\\ChuckcmsTemplateNairobiServiceProvider"
+                "Chuckbe\\ChuckcmsTemplateNairobi\\ChuckcmsTemplateSingaporeServiceProvider"
             ],
             "aliases": {
                 
