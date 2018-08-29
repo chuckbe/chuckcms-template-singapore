@@ -48,12 +48,12 @@ class ChuckcmsTemplateSingaporeTableSeeder extends Seeder
         $css['progressbar']['asset'] = 'true';
 
         $css['customscrollbar']['href'] = 'chuckbe/chuckcms-template-singapore/css/jquery.mCustomScrollbar.css';
-        $css['customscrollbar']['asset']  'true';
+        $css['customscrollbar']['asset'] = 'true';
 
         $css['style']['href'] = 'chuckbe/chuckcms-template-singapore/css/style.css';
         $css['style']['asset'] = 'false';
 
-        
+
         $js = []; 
         $js['jquery']['href'] = 'chuckbe/chuckcms-template-singapore/js/vendor/jquery.js';
         $js['jquery']['asset'] = 'true';
