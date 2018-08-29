@@ -1,4 +1,4 @@
-@extends('chuckcms-template-nairobi::templates.' . $template->slug . '.layouts.base')
+@extends('chuckcms-template-singapore::templates.' . $template->slug . '.layouts.base')
 
 @section('title')
     {{ $page->title }}
